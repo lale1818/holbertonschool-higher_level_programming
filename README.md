@@ -1,1 +1,1 @@
-Python data structures project
+Higher level programming project
