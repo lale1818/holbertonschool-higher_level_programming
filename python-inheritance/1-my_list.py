@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """
-Bu modul list-dən miras alan MyList klasını təqdim edir.
+This module defines a class MyList that inherits from list.
 """
 
 
 class MyList(list):
-    """Standart list klasını genişləndirən klas."""
+    """A subclass of list with additional sorting functionality."""
 
     def print_sorted(self):
-        """Siyahını artan sıra ilə (sorted) çap edir."""
+        """
+        Prints the list in ascending order.
+        Assumes all elements in the list are integers.
+        """
         print(sorted(self))
