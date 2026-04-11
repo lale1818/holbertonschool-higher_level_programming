@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This module demonstrates Abstract Base Classes and Duck Typing in Python.
+This module defines an abstract class Shape and its subclasses
+Circle and Rectangle, demonstrating duck typing.
 """
 from abc import ABC, abstractmethod
 import math
