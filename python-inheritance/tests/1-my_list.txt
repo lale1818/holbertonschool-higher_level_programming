@@ -1,11 +1,15 @@
-Test MyList
+"""Test module for MyList"""
 
-my_list = __import__('1-my_list').MyList
-l = my_list()
-l.append(3)
-l.append(1)
-l.append(2)
-print(l)
-l.print_sorted()
-print(l)
+
+>>> MyList = __import__("1-my_list").MyList
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> print(my_list)
+[1, 4, 2]
+>>> my_list.print_sorted()
+[1, 2, 4]
+>>> print(my_list)
+[1, 4, 2]
 
