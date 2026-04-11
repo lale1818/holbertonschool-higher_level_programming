@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""Module that defines MyList"""
+"""
+This module contains the MyList class.
+"""
 
 
 class MyList(list):
-    """Class MyList that inherits from list"""
+    """A subclass of list that provides a sorted printing method."""
 
     def print_sorted(self):
-        """Print sorted list and return a new sorted list"""
-        new_list = self[:]
-        new_list.sort()
-        print(new_list)
-        return new_list
+        """Prints the list in ascending order."""
+        print(sorted(self))
