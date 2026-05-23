@@ -1,1 +1,1 @@
-Higher level programming project
+# Holberton School - Higher Level Programming - SQL
